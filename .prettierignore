@@ -1,0 +1,23 @@
+# Ignore artifacts:
+build
+coverage
+
+
+# IDEs and editors:
+**/.ai
+**/.idea
+
+# Git
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+
+# Ignore all HTML files:
+# **/*.html
+
+# Ignore all CSS files:
+# **/*.css
+
+# Ignore all JS files:
+# **/*.js
