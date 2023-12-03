@@ -1,20 +1,24 @@
 # .prettierrc or .prettierrc.yaml
-trailingComma             : "es5"
-tabWidth                  : 4
-semi                      : false
-singleQuote               : true
-endOfLine                 : "lf"
-embeddedLanguageFormatting: "auto"
+trailingComma: 'es5'
+tabWidth: 4
+semi: false
+singleQuote: true
+endOfLine: 'lf'
+embeddedLanguageFormatting: 'auto'
 
 # HTML
-bracketSpacing            : true
-bracketSameLine           : true
-htmlWhitespaceSensitivity : "css"
-singleAttributePerLine    : true
+bracketSpacing: true
+bracketSameLine: true
+# ?
+htmllVoidTags: false
+htmlWhitespaceSensitivity: 'css'
+singleAttributePerLine: true
 
 # Programming Language
-arrowParens               : "avoid"
+arrowParens: 'avoid'
 
 # Markdown Configuration
-proseWrap                 : "preserve"
+proseWrap: 'preserve'
 
+plugins:
+  - prettier-plugin-django-alpine
